@@ -35,6 +35,16 @@ class Mochila:
                 print(elemento.getId(),end=" - ")
                 print(elemento.getPeso(),end=" - ")
                 print(elemento.getBeneficio()) 
+    def optimizarElementos(self):
+        elementosMochila = []
+        pesoAcumulado = 0
+        # los elementos deben estar ordenados en orden creciente de volumen
+        for elemento in self.elementos:
+            ganancia = 0
+            for i in range(capacidad):
+                if(i >= elemento.getPeso()):
+                    if(ganancia)
+
 
 
 
